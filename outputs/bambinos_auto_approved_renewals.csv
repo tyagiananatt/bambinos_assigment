@@ -1,0 +1,4 @@
+Invoice ID,Student ID,Student Name,Parent Name,Parent Mobile,Class Name,Batch Name,Days,Time,Amount,Status
+84902,68102,Di***a Na***r,Ka***k Na***r,+91-9822XXXX02,Unbox Maths Level 3,BM-G5-Batch-C,"Mon,Wed",18:00:00,10500.0,AUTO_APPROVED
+84903,68103,Ka***r Ve***a,Ne***a Ve***a,+91-9833XXXX03,Little Yogi Gita Level 1,LY-G3-Batch-B,"Wed,Fri",16:30:00,9000.0,AUTO_APPROVED
+84907,68107,Vi***n Jo***i,Po***a Jo***i,+91-9877XXXX07,Phonics Champions Level 1,PH-G1-Batch-F,"Mon,Thu",15:30:00,7600.0,AUTO_APPROVED

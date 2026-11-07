@@ -1,0 +1,4 @@
+booking_request_id,invoice_id,student_id,educator_id,classbatch_id,sessions_count,preferred_days,preferred_time,status
+5502,84902,68102,1108,9202,24,"Mon,Wed",18:00:00,Ready_For_Allocation
+BR-AUTO-84903,84903,68103,1115,9203,24,"Wed,Fri",16:30:00,Ready_For_Allocation
+BR-AUTO-84907,84907,68107,1125,9207,24,"Mon,Thu",15:30:00,Ready_For_Allocation

@@ -1,0 +1,1576 @@
+{
+  "total_invoices": 13,
+  "verified_payments": 11,
+  "auto_approved_renewals": 3,
+  "manual_review_needed": 5,
+  "pending_teacher_forms": 2,
+  "pending_booking_requests": 5,
+  "unscheduled_students": 10,
+  "flagged_exceptions": 9,
+  "automation_rate_pct": 27.3,
+  "hours_saved_est": 1.2,
+  "last_sync_timestamp": "2026-11-07 20:31:50",
+  "records": [
+    {
+      "student_id": "68101",
+      "student_name": "Aa***v Sh***a",
+      "parent_name": "Pr***a Sh***a",
+      "parent_mobile": "+91-9811XXXX01",
+      "parent_email": "pr***a.sh***@gmail.com",
+      "invoice_id": "84901",
+      "invoice_number": "BMB-INV-2026-84901",
+      "current_stage": "Class Scheduled",
+      "reconciliation_status": "ALREADY_SCHEDULED",
+      "reason_code": "ALREADY_SCHEDULED",
+      "explanation": "Student Aa***v Sh***a is already scheduled in 2 active live class sessions for batch YC-G4-Batch-A.",
+      "recommended_action": "No scheduling action needed. Record complete and active.",
+      "responsible_team": "Operations",
+      "timestamp": "2026-11-07 20:31:50",
+      "payment_status": "Paid",
+      "amount_paid": 12000.0,
+      "net_amount": 12000.0,
+      "currency": "INR",
+      "educator_id": "1102",
+      "educator_name": "Ms. Rhea B***",
+      "class_id": "104",
+      "class_name": "Young Communicators Level 2",
+      "batch_id": "9201",
+      "batch_name": "YC-G4-Batch-A",
+      "batch_days": "Tue,Thu",
+      "batch_time": "17:00:00",
+      "batch_capacity_info": "4/6",
+      "continue_same_batch": "Yes",
+      "teacher_form_id": "3301",
+      "booking_request_id": "5501",
+      "class_schedule_ids": [
+        "990101",
+        "990102"
+      ],
+      "is_auto_approvable": false,
+      "ready_for_scheduling": false,
+      "exceptions": [],
+      "draft_messages": [
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Ops Team",
+          "recipient_contact": "Ops Dashboard",
+          "subject": "Audit Check: Student Aa***v Sh***a Already Scheduled",
+          "message": "Invoice INV-84901 for student Aa***v Sh***a is already associated with active class schedule bookings in batch YC-G4-Batch-A. No further scheduling action is required; marked as completed.",
+          "reason": "Duplicate booking prevention audit note",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "student_id": "68102",
+      "student_name": "Di***a Na***r",
+      "parent_name": "Ka***k Na***r",
+      "parent_mobile": "+91-9822XXXX02",
+      "parent_email": "ka***k.n***@yahoo.com",
+      "invoice_id": "84902",
+      "invoice_number": "BMB-INV-2026-84902",
+      "current_stage": "Booking Request Approved",
+      "reconciliation_status": "AUTO_APPROVED",
+      "reason_code": "CLEAN_RENEWAL_VERIFIED",
+      "explanation": "All validation checks passed: verified payment, matching educator form, active batch capacity, and exact student match.",
+      "recommended_action": "Execute zero-touch automated 24-session booking.",
+      "responsible_team": "Automation Engine",
+      "timestamp": "2026-11-07 20:31:50",
+      "payment_status": "Paid",
+      "amount_paid": 10500.0,
+      "net_amount": 10500.0,
+      "currency": "INR",
+      "educator_id": "1108",
+      "educator_name": "Mr. Vikram S***",
+      "class_id": "205",
+      "class_name": "Unbox Maths Level 3",
+      "batch_id": "9202",
+      "batch_name": "BM-G5-Batch-C",
+      "batch_days": "Mon,Wed",
+      "batch_time": "18:00:00",
+      "batch_capacity_info": "5/6",
+      "continue_same_batch": "Yes",
+      "teacher_form_id": "3302",
+      "booking_request_id": "5502",
+      "class_schedule_ids": [],
+      "is_auto_approvable": true,
+      "ready_for_scheduling": false,
+      "exceptions": [],
+      "draft_messages": [
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "Ka***k Na***r",
+          "recipient_contact": "+91-9822XXXX02",
+          "subject": "Bambinos Renewal Confirmed - Di***a Na***r",
+          "message": "Dear Ka***k Na***r, thank you for renewing Di***a Na***r's learning journey with Bambinos.live! Your payment of INR 10,500.00 for the upcoming 24 sessions has been verified and your enrollment has been automatically approved for BM-G5-Batch-C (Mon,Wed at 18:00:00). Our academic team looks forward to inspiring Di***a Na***r in the upcoming sessions.",
+          "reason": "Automated post-approval parent confirmation draft",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Teacher",
+          "recipient_name": "Mr. Vikram S***",
+          "recipient_contact": "Teacher Portal / WhatsApp",
+          "subject": "Student Renewal Approved: Di***a Na***r",
+          "message": "Hi Mr. Vikram S***, renewal payment for Di***a Na***r (Invoice INV-84902) has been verified and auto-approved. The student will continue in BM-G5-Batch-C. Please review your updated batch roster.",
+          "reason": "Automated notification to educator regarding confirmed student continuation",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "student_id": "68103",
+      "student_name": "Ka***r Ve***a",
+      "parent_name": "Ne***a Ve***a",
+      "parent_mobile": "+91-9833XXXX03",
+      "parent_email": "ne***a.v***@gmail.com",
+      "invoice_id": "84903",
+      "invoice_number": "BMB-INV-2026-84903",
+      "current_stage": "Teacher Form Submitted",
+      "reconciliation_status": "AUTO_APPROVED",
+      "reason_code": "CLEAN_RENEWAL_VERIFIED",
+      "explanation": "All validation checks passed: verified payment, matching educator form, active batch capacity, and exact student match.",
+      "recommended_action": "Execute zero-touch automated 24-session booking.",
+      "responsible_team": "Automation Engine",
+      "timestamp": "2026-11-07 20:31:50",
+      "payment_status": "Paid",
+      "amount_paid": 9000.0,
+      "net_amount": 9000.0,
+      "currency": "INR",
+      "educator_id": "1115",
+      "educator_name": "Acharya Nancy S***",
+      "class_id": "301",
+      "class_name": "Little Yogi Gita Level 1",
+      "batch_id": "9203",
+      "batch_name": "LY-G3-Batch-B",
+      "batch_days": "Wed,Fri",
+      "batch_time": "16:30:00",
+      "batch_capacity_info": "3/6",
+      "continue_same_batch": "Yes",
+      "teacher_form_id": "3303",
+      "booking_request_id": null,
+      "class_schedule_ids": [],
+      "is_auto_approvable": true,
+      "ready_for_scheduling": false,
+      "exceptions": [],
+      "draft_messages": [
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "Ne***a Ve***a",
+          "recipient_contact": "+91-9833XXXX03",
+          "subject": "Bambinos Renewal Confirmed - Ka***r Ve***a",
+          "message": "Dear Ne***a Ve***a, thank you for renewing Ka***r Ve***a's learning journey with Bambinos.live! Your payment of INR 9,000.00 for the upcoming 24 sessions has been verified and your enrollment has been automatically approved for LY-G3-Batch-B (Wed,Fri at 16:30:00). Our academic team looks forward to inspiring Ka***r Ve***a in the upcoming sessions.",
+          "reason": "Automated post-approval parent confirmation draft",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Teacher",
+          "recipient_name": "Acharya Nancy S***",
+          "recipient_contact": "Teacher Portal / WhatsApp",
+          "subject": "Student Renewal Approved: Ka***r Ve***a",
+          "message": "Hi Acharya Nancy S***, renewal payment for Ka***r Ve***a (Invoice INV-84903) has been verified and auto-approved. The student will continue in LY-G3-Batch-B. Please review your updated batch roster.",
+          "reason": "Automated notification to educator regarding confirmed student continuation",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "student_id": "68104",
+      "student_name": "An***a Iy***r",
+      "parent_name": "Ri***u Iy***r",
+      "parent_mobile": "+91-9844XXXX77",
+      "parent_email": "ri***u.iy***@gmail.com",
+      "invoice_id": "84904",
+      "invoice_number": "BMB-INV-2026-84904",
+      "current_stage": "Teacher Form Submitted",
+      "reconciliation_status": "MANUAL_REVIEW",
+      "reason_code": "PARENT_CONTACT_MISMATCH",
+      "explanation": "Payer phone on invoice (+91-9844XXXX77) differs from registered parent mobile (+91-9844XXXX04). Educator remark: 'Mother paid from her number'.",
+      "recommended_action": "Verify secondary guardian contact and link payer phone number to student account.",
+      "responsible_team": "Operations",
+      "timestamp": "2026-11-07 20:31:50",
+      "payment_status": "Paid",
+      "amount_paid": 12000.0,
+      "net_amount": 12000.0,
+      "currency": "INR",
+      "educator_id": "1102",
+      "educator_name": "Ms. Rhea B***",
+      "class_id": "104",
+      "class_name": "Young Communicators Level 2",
+      "batch_id": "9201",
+      "batch_name": "YC-G4-Batch-A",
+      "batch_days": "Tue,Thu",
+      "batch_time": "17:00:00",
+      "batch_capacity_info": "4/6",
+      "continue_same_batch": "Yes",
+      "teacher_form_id": "3304",
+      "booking_request_id": null,
+      "class_schedule_ids": [],
+      "is_auto_approvable": false,
+      "ready_for_scheduling": false,
+      "exceptions": [
+        {
+          "id": "EXC-84904-CONTACT-MISMATCH",
+          "student_id": "68104",
+          "student_name": "An***a Iy***r",
+          "invoice_id": "84904",
+          "invoice_number": "BMB-INV-2026-84904",
+          "exception_type": "PARENT_CONTACT_MISMATCH",
+          "category": "Data Mismatches",
+          "severity": "Medium",
+          "detected_at": "2026-11-07 20:31:50",
+          "time_pending_hours": 129.0,
+          "responsible_team": "Operations",
+          "recommended_action": "Verify secondary guardian contact and link payer phone number to student account.",
+          "status": "Open",
+          "notes": [],
+          "assigned_to": null,
+          "explanation": "Payer phone on invoice (+91-9844XXXX77) differs from registered parent mobile (+91-9844XXXX04). Educator remark: 'Mother paid from her number'.",
+          "details": {
+            "invoice_mobile": "+91-9844XXXX77",
+            "registered_mobile": "+91-9844XXXX04",
+            "teacher_remark": "Mother paid from her number"
+          },
+          "draft_messages": [
+            {
+              "recipient_type": "Operations",
+              "recipient_name": "Security & Ops",
+              "recipient_contact": "Verification Queue",
+              "subject": "Contact Mismatch Review: An***a Iy***r (INV-84904)",
+              "message": "Invoice INV-84904 was paid using mobile +91-9844XXXX77 (Ri***u Iy***r), whereas master student profile lists +91-9844XXXX04. Teacher remark noted: 'Mother paid from her number'. Verify authorization and link secondary phone number.",
+              "reason": "Parent contact discrepancy between payment transaction and student record",
+              "created_at": "2026-11-07 20:31:50"
+            },
+            {
+              "recipient_type": "Parent",
+              "recipient_name": "Ri***u Iy***r",
+              "recipient_contact": "+91-9844XXXX77",
+              "subject": "Bambinos Profile Verification for An***a Iy***r",
+              "message": "Dear Ri***u Iy***r, we received renewal payment for An***a Iy***r from mobile +91-9844XXXX77. We are updating An***a Iy***r's profile with this number as an authorized parent contact. If you did not authorize this, please contact support@bambinos.live immediately.",
+              "reason": "Secondary contact registration and verification notice",
+              "created_at": "2026-11-07 20:31:50"
+            }
+          ]
+        }
+      ],
+      "draft_messages": [
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Security & Ops",
+          "recipient_contact": "Verification Queue",
+          "subject": "Contact Mismatch Review: An***a Iy***r (INV-84904)",
+          "message": "Invoice INV-84904 was paid using mobile +91-9844XXXX77 (Ri***u Iy***r), whereas master student profile lists +91-9844XXXX04. Teacher remark noted: 'Mother paid from her number'. Verify authorization and link secondary phone number.",
+          "reason": "Parent contact discrepancy between payment transaction and student record",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "Ri***u Iy***r",
+          "recipient_contact": "+91-9844XXXX77",
+          "subject": "Bambinos Profile Verification for An***a Iy***r",
+          "message": "Dear Ri***u Iy***r, we received renewal payment for An***a Iy***r from mobile +91-9844XXXX77. We are updating An***a Iy***r's profile with this number as an authorized parent contact. If you did not authorize this, please contact support@bambinos.live immediately.",
+          "reason": "Secondary contact registration and verification notice",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "student_id": "68105",
+      "student_name": "Re***h Pa***l",
+      "parent_name": "Me***a Pa***l",
+      "parent_mobile": "+91-9855XXXX05",
+      "parent_email": "me***a.p***@gmail.com",
+      "invoice_id": "84905",
+      "invoice_number": "BMB-INV-2026-84905",
+      "current_stage": "Booking Request Approved",
+      "reconciliation_status": "MANUAL_REVIEW",
+      "reason_code": "BATCH_UNAVAILABLE",
+      "explanation": "Target batch CM-G4-Batch-D is at full capacity (6/6 active students).",
+      "recommended_action": "Create overflow batch section or offer parallel weekday slots to parent.",
+      "responsible_team": "Scheduling Ops",
+      "timestamp": "2026-11-07 20:31:50",
+      "payment_status": "Paid",
+      "amount_paid": 11000.0,
+      "net_amount": 11000.0,
+      "currency": "INR",
+      "educator_id": "1122",
+      "educator_name": "Coach Arvind K***",
+      "class_id": "402",
+      "class_name": "Unbox Chess Level 2",
+      "batch_id": "9205",
+      "batch_name": "CM-G4-Batch-D",
+      "batch_days": "Sat,Sun",
+      "batch_time": "11:00:00",
+      "batch_capacity_info": "6/6",
+      "continue_same_batch": "Yes",
+      "teacher_form_id": "3305",
+      "booking_request_id": "5505",
+      "class_schedule_ids": [],
+      "is_auto_approvable": false,
+      "ready_for_scheduling": false,
+      "exceptions": [
+        {
+          "id": "EXC-84905-BATCH-FULL",
+          "student_id": "68105",
+          "student_name": "Re***h Pa***l",
+          "invoice_id": "84905",
+          "invoice_number": "BMB-INV-2026-84905",
+          "exception_type": "BATCH_UNAVAILABLE",
+          "category": "Scheduling Issues",
+          "severity": "High",
+          "detected_at": "2026-11-07 20:31:50",
+          "time_pending_hours": 127.4,
+          "responsible_team": "Scheduling Ops",
+          "recommended_action": "Create overflow batch section or offer parallel weekday slots to parent.",
+          "status": "Open",
+          "notes": [],
+          "assigned_to": null,
+          "explanation": "Target batch CM-G4-Batch-D is at full capacity (6/6 active students).",
+          "details": {
+            "batch_id": "9205",
+            "active_students": 6,
+            "max_size": 6
+          },
+          "draft_messages": [
+            {
+              "recipient_type": "Parent",
+              "recipient_name": "Me***a Pa***l",
+              "recipient_contact": "+91-9855XXXX05",
+              "subject": "Batch Scheduling Update for Re***h Pa***l",
+              "message": "Dear Me***a Pa***l, thank you for renewing Re***h Pa***l's course with Bambinos.live. Your preferred batch CM-G4-Batch-D is currently operating at maximum capacity. To ensure optimal 1:6 teacher attention, our academic manager has reserved 2 parallel slot options for you: Option 1: Tue, Thu 6:00 PM | Option 2: Sat, Sun 11:00 AM. Please reply with your preference to confirm.",
+              "reason": "Batch capacity constraint - proposing alternate slots to parent",
+              "created_at": "2026-11-07 20:31:50"
+            },
+            {
+              "recipient_type": "Operations",
+              "recipient_name": "Scheduling Ops",
+              "recipient_contact": "Ops Queue",
+              "subject": "Urgent: Capacity Overflow in Batch 9205",
+              "message": "Booking request for Re***h Pa***l failed because batch 9205 is full (6/6). Action: Review educator availability to open an overflow section or confirm alternate batch.",
+              "reason": "Batch capacity overflow escalation",
+              "created_at": "2026-11-07 20:31:50"
+            }
+          ]
+        }
+      ],
+      "draft_messages": [
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "Me***a Pa***l",
+          "recipient_contact": "+91-9855XXXX05",
+          "subject": "Batch Scheduling Update for Re***h Pa***l",
+          "message": "Dear Me***a Pa***l, thank you for renewing Re***h Pa***l's course with Bambinos.live. Your preferred batch CM-G4-Batch-D is currently operating at maximum capacity. To ensure optimal 1:6 teacher attention, our academic manager has reserved 2 parallel slot options for you: Option 1: Tue, Thu 6:00 PM | Option 2: Sat, Sun 11:00 AM. Please reply with your preference to confirm.",
+          "reason": "Batch capacity constraint - proposing alternate slots to parent",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Scheduling Ops",
+          "recipient_contact": "Ops Queue",
+          "subject": "Urgent: Capacity Overflow in Batch 9205",
+          "message": "Booking request for Re***h Pa***l failed because batch 9205 is full (6/6). Action: Review educator availability to open an overflow section or confirm alternate batch.",
+          "reason": "Batch capacity overflow escalation",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "student_id": "68106",
+      "student_name": "Zo***a Kh***n",
+      "parent_name": "Fa***n Kh***n",
+      "parent_mobile": "+971-5012XXX06",
+      "parent_email": "fa***n.k***@dubai.ae",
+      "invoice_id": "84906",
+      "invoice_number": "BMB-INV-2026-84906",
+      "current_stage": "Payment Received",
+      "reconciliation_status": "MISSING_TEACHER_FORM",
+      "reason_code": "MISSING_TEACHER_FORM",
+      "explanation": "Orphaned payment: Educator Ms. Rhea B*** has not submitted renewal form.",
+      "recommended_action": "Dispatch urgent prompt to educator.",
+      "responsible_team": "Teacher Operations",
+      "timestamp": "2026-11-07 20:31:50",
+      "payment_status": "Paid",
+      "amount_paid": 18000.0,
+      "net_amount": 18000.0,
+      "currency": "INR",
+      "educator_id": "1102",
+      "educator_name": "Ms. Rhea B***",
+      "class_id": "108",
+      "class_name": "Young Communicators GCC Track",
+      "batch_id": "9206",
+      "batch_name": "YC-GCC-Batch-E",
+      "batch_days": "Sun,Tue",
+      "batch_time": "19:00:00",
+      "batch_capacity_info": "5/6",
+      "continue_same_batch": null,
+      "teacher_form_id": null,
+      "booking_request_id": null,
+      "class_schedule_ids": [],
+      "is_auto_approvable": false,
+      "ready_for_scheduling": false,
+      "exceptions": [
+        {
+          "id": "EXC-84906-NO-FORM",
+          "student_id": "68106",
+          "student_name": "Zo***a Kh***n",
+          "invoice_id": "84906",
+          "invoice_number": "BMB-INV-2026-84906",
+          "exception_type": "MISSING_TEACHER_FORM",
+          "category": "Teacher Issues",
+          "severity": "High",
+          "detected_at": "2026-11-07 20:31:50",
+          "time_pending_hours": 124.5,
+          "responsible_team": "Educator / Ops",
+          "recommended_action": "Alert educator Ms. Rhea B*** to submit pending renewal form immediately.",
+          "status": "Open",
+          "notes": [],
+          "assigned_to": null,
+          "explanation": "Full payment of INR 18,000.00 verified on 2026-11-02 16:00:00, but no educator renewal form submitted.",
+          "details": {
+            "paid_at": "2026-11-02 16:00:00",
+            "educator_name": "Ms. Rhea B***",
+            "educator_id": "1102"
+          },
+          "draft_messages": [
+            {
+              "recipient_type": "Teacher",
+              "recipient_name": "Ms. Rhea B***",
+              "recipient_contact": "Educator WhatsApp / App",
+              "subject": "URGENT: Renewal Form Needed for Zo***a Kh***n",
+              "message": "Hello Ms. Rhea B***, a verified renewal payment of INR 18,000.00 has been received for student Zo***a Kh***n (Invoice INV-84906). However, your educator renewal submission form is still missing. Please submit the form via the educator portal immediately so we can allocate the batch and confirm the schedule.",
+              "reason": "Orphaned invoice: payment received without faculty form submission",
+              "created_at": "2026-11-07 20:31:50"
+            },
+            {
+              "recipient_type": "Parent",
+              "recipient_name": "Fa***n Kh***n",
+              "recipient_contact": "+971-5012XXX06",
+              "subject": "Update on Zo***a Kh***n's Bambinos Renewal",
+              "message": "Dear Fa***n Kh***n, we have successfully received your renewal payment for Zo***a Kh***n. Our academic coordinator is currently coordinating with your mentor Ms. Rhea B*** to confirm the upcoming schedule. We will notify you within 24 hours with class details.",
+              "reason": "Parent holding communication during teacher submission delay",
+              "created_at": "2026-11-07 20:31:50"
+            },
+            {
+              "recipient_type": "Operations",
+              "recipient_name": "Operations Lead",
+              "recipient_contact": "Internal Queue",
+              "subject": "Pending Teacher Form Escalation: Ms. Rhea B*** / Zo***a Kh***n",
+              "message": "Payment for Zo***a Kh***n (INV-84906) has been orphaned for >12 hours without faculty form from Ms. Rhea B***. Action: Ping educator directly via WhatsApp or coordinator hotline.",
+              "reason": "SLA violation risk for missing faculty form",
+              "created_at": "2026-11-07 20:31:50"
+            }
+          ]
+        }
+      ],
+      "draft_messages": [
+        {
+          "recipient_type": "Teacher",
+          "recipient_name": "Ms. Rhea B***",
+          "recipient_contact": "Educator WhatsApp / App",
+          "subject": "URGENT: Renewal Form Needed for Zo***a Kh***n",
+          "message": "Hello Ms. Rhea B***, a verified renewal payment of INR 18,000.00 has been received for student Zo***a Kh***n (Invoice INV-84906). However, your educator renewal submission form is still missing. Please submit the form via the educator portal immediately so we can allocate the batch and confirm the schedule.",
+          "reason": "Orphaned invoice: payment received without faculty form submission",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "Fa***n Kh***n",
+          "recipient_contact": "+971-5012XXX06",
+          "subject": "Update on Zo***a Kh***n's Bambinos Renewal",
+          "message": "Dear Fa***n Kh***n, we have successfully received your renewal payment for Zo***a Kh***n. Our academic coordinator is currently coordinating with your mentor Ms. Rhea B*** to confirm the upcoming schedule. We will notify you within 24 hours with class details.",
+          "reason": "Parent holding communication during teacher submission delay",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Operations Lead",
+          "recipient_contact": "Internal Queue",
+          "subject": "Pending Teacher Form Escalation: Ms. Rhea B*** / Zo***a Kh***n",
+          "message": "Payment for Zo***a Kh***n (INV-84906) has been orphaned for >12 hours without faculty form from Ms. Rhea B***. Action: Ping educator directly via WhatsApp or coordinator hotline.",
+          "reason": "SLA violation risk for missing faculty form",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "student_id": "68107",
+      "student_name": "Vi***n Jo***i",
+      "parent_name": "Po***a Jo***i",
+      "parent_mobile": "+91-9877XXXX07",
+      "parent_email": "po***a.j***@gmail.com",
+      "invoice_id": "84907",
+      "invoice_number": "BMB-INV-2026-84907",
+      "current_stage": "Teacher Form Submitted",
+      "reconciliation_status": "AUTO_APPROVED",
+      "reason_code": "CLEAN_RENEWAL_VERIFIED",
+      "explanation": "All validation checks passed: verified payment, matching educator form, active batch capacity, and exact student match.",
+      "recommended_action": "Execute zero-touch automated 24-session booking.",
+      "responsible_team": "Automation Engine",
+      "timestamp": "2026-11-07 20:31:50",
+      "payment_status": "Paid",
+      "amount_paid": 9500.0,
+      "net_amount": 7600.0,
+      "currency": "INR",
+      "educator_id": "1125",
+      "educator_name": "Ms. Simran D***",
+      "class_id": "101",
+      "class_name": "Phonics Champions Level 1",
+      "batch_id": "9207",
+      "batch_name": "PH-G1-Batch-F",
+      "batch_days": "Mon,Thu",
+      "batch_time": "15:30:00",
+      "batch_capacity_info": "4/6",
+      "continue_same_batch": "Yes",
+      "teacher_form_id": "3307",
+      "booking_request_id": null,
+      "class_schedule_ids": [],
+      "is_auto_approvable": true,
+      "ready_for_scheduling": false,
+      "exceptions": [],
+      "draft_messages": [
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "Po***a Jo***i",
+          "recipient_contact": "+91-9877XXXX07",
+          "subject": "Bambinos Renewal Confirmed - Vi***n Jo***i",
+          "message": "Dear Po***a Jo***i, thank you for renewing Vi***n Jo***i's learning journey with Bambinos.live! Your payment of INR 7,600.00 for the upcoming 24 sessions has been verified and your enrollment has been automatically approved for PH-G1-Batch-F (Mon,Thu at 15:30:00). Our academic team looks forward to inspiring Vi***n Jo***i in the upcoming sessions.",
+          "reason": "Automated post-approval parent confirmation draft",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Teacher",
+          "recipient_name": "Ms. Simran D***",
+          "recipient_contact": "Teacher Portal / WhatsApp",
+          "subject": "Student Renewal Approved: Vi***n Jo***i",
+          "message": "Hi Ms. Simran D***, renewal payment for Vi***n Jo***i (Invoice INV-84907) has been verified and auto-approved. The student will continue in PH-G1-Batch-F. Please review your updated batch roster.",
+          "reason": "Automated notification to educator regarding confirmed student continuation",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "student_id": "68108",
+      "student_name": "Si***a Ma***a",
+      "parent_name": "Ro***n Ma***a",
+      "parent_mobile": "+1-40855XXX08",
+      "parent_email": "ro***n.m***@techcorp.com",
+      "invoice_id": "84908",
+      "invoice_number": "BMB-INV-2026-84908",
+      "current_stage": "Teacher Form Submitted",
+      "reconciliation_status": "MANUAL_REVIEW",
+      "reason_code": "DUPLICATE_FACULTY_FORM",
+      "explanation": "Multiple renewal forms submitted by educator for this invoice (Form IDs: 3308, 3309).",
+      "recommended_action": "De-duplicate submissions; discard earlier attempt and retain latest valid form.",
+      "responsible_team": "Operations",
+      "timestamp": "2026-11-07 20:31:50",
+      "payment_status": "Paid",
+      "amount_paid": 22000.0,
+      "net_amount": 22000.0,
+      "currency": "INR",
+      "educator_id": "1115",
+      "educator_name": "Acharya Nancy S***",
+      "class_id": "302",
+      "class_name": "Little Yogi Gita US Track",
+      "batch_id": "9208",
+      "batch_name": "LY-US-Batch-G",
+      "batch_days": "Sat,Sun",
+      "batch_time": "09:30:00",
+      "batch_capacity_info": "5/6",
+      "continue_same_batch": "Yes",
+      "teacher_form_id": "3308",
+      "booking_request_id": null,
+      "class_schedule_ids": [],
+      "is_auto_approvable": false,
+      "ready_for_scheduling": false,
+      "exceptions": [
+        {
+          "id": "EXC-84908-DUP-FORM",
+          "student_id": "68108",
+          "student_name": "Si***a Ma***a",
+          "invoice_id": "84908",
+          "invoice_number": "BMB-INV-2026-84908",
+          "exception_type": "DUPLICATE_FACULTY_FORM",
+          "category": "Data Mismatches",
+          "severity": "Medium",
+          "detected_at": "2026-11-07 20:31:50",
+          "time_pending_hours": 108.3,
+          "responsible_team": "Operations",
+          "recommended_action": "De-duplicate submissions; discard earlier attempt and retain latest valid form.",
+          "status": "Open",
+          "notes": [],
+          "assigned_to": null,
+          "explanation": "Multiple renewal forms submitted by educator for this invoice (Form IDs: 3308, 3309).",
+          "details": {
+            "duplicate_ids": [
+              "3308",
+              "3309"
+            ]
+          },
+          "draft_messages": [
+            {
+              "recipient_type": "Teacher",
+              "recipient_name": "Acharya Nancy S***",
+              "recipient_contact": "Teacher Portal",
+              "subject": "Duplicate Submission Notice: Si***a Ma***a",
+              "message": "Hi Acharya Nancy S***, we detected two identical renewal submissions (Forms ['3308', '3309']) for Si***a Ma***a (Invoice INV-84908). We have retained the latest valid entry and archived the duplicate. No further action is required from you.",
+              "reason": "De-duplication notice to educator to prevent redundant forms",
+              "created_at": "2026-11-07 20:31:50"
+            },
+            {
+              "recipient_type": "Operations",
+              "recipient_name": "Ops Lead",
+              "recipient_contact": "Ops Desk",
+              "subject": "De-duplicated Form for Invoice INV-84908",
+              "message": "Educator submitted multiple entries due to browser freeze/lag. Duplicate form pruned; primary form kept.",
+              "reason": "Internal audit resolution note for duplicate faculty submission",
+              "created_at": "2026-11-07 20:31:50"
+            }
+          ]
+        }
+      ],
+      "draft_messages": [
+        {
+          "recipient_type": "Teacher",
+          "recipient_name": "Acharya Nancy S***",
+          "recipient_contact": "Teacher Portal",
+          "subject": "Duplicate Submission Notice: Si***a Ma***a",
+          "message": "Hi Acharya Nancy S***, we detected two identical renewal submissions (Forms ['3308', '3309']) for Si***a Ma***a (Invoice INV-84908). We have retained the latest valid entry and archived the duplicate. No further action is required from you.",
+          "reason": "De-duplication notice to educator to prevent redundant forms",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Ops Lead",
+          "recipient_contact": "Ops Desk",
+          "subject": "De-duplicated Form for Invoice INV-84908",
+          "message": "Educator submitted multiple entries due to browser freeze/lag. Duplicate form pruned; primary form kept.",
+          "reason": "Internal audit resolution note for duplicate faculty submission",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "student_id": "68109",
+      "student_name": "Ad***t Ku***i",
+      "parent_name": "Sn***a Ku***i",
+      "parent_mobile": "+91-9899XXXX09",
+      "parent_email": "sn***a.k***@gmail.com",
+      "invoice_id": "84909",
+      "invoice_number": "BMB-INV-2026-84909",
+      "current_stage": "Teacher Form Submitted",
+      "reconciliation_status": "PAYMENT_PENDING",
+      "reason_code": "PARTIAL_PAYMENT",
+      "explanation": "Partial payment received (Installment 1 of 2: INR 5,250.00).",
+      "recommended_action": "Review milestone agreement.",
+      "responsible_team": "Finance",
+      "timestamp": "2026-11-07 20:31:50",
+      "payment_status": "Partially_Paid",
+      "amount_paid": 10500.0,
+      "net_amount": 5250.0,
+      "currency": "INR",
+      "educator_id": "1108",
+      "educator_name": "Mr. Vikram S***",
+      "class_id": "204",
+      "class_name": "Unbox Maths Level 2",
+      "batch_id": "9209",
+      "batch_name": "BM-G3-Batch-H",
+      "batch_days": "Tue,Fri",
+      "batch_time": "17:30:00",
+      "batch_capacity_info": "4/6",
+      "continue_same_batch": "Yes",
+      "teacher_form_id": "3310",
+      "booking_request_id": null,
+      "class_schedule_ids": [],
+      "is_auto_approvable": false,
+      "ready_for_scheduling": false,
+      "exceptions": [
+        {
+          "id": "EXC-84909-PARTIAL-PAY",
+          "student_id": "68109",
+          "student_name": "Ad***t Ku***i",
+          "invoice_id": "84909",
+          "invoice_number": "BMB-INV-2026-84909",
+          "exception_type": "PARTIAL_PAYMENT",
+          "category": "Payment Issues",
+          "severity": "High",
+          "detected_at": "2026-11-07 20:31:50",
+          "time_pending_hours": 106.5,
+          "responsible_team": "Finance / Ops",
+          "recommended_action": "Confirm 2-installment agreement and set payment milestone before unlocking all 24 sessions.",
+          "status": "Open",
+          "notes": [],
+          "assigned_to": null,
+          "explanation": "Partial installment received (INR 5,250.00 of total INR 10,500.00). Remaining balance is INR 5,250.00.",
+          "details": {
+            "net_amount": 5250.0,
+            "amount": 10500.0,
+            "balance_due": 5250.0,
+            "payment_type": "Installment_1_of_2"
+          },
+          "draft_messages": [
+            {
+              "recipient_type": "Parent",
+              "recipient_name": "Sn***a Ku***i",
+              "recipient_contact": "+91-9899XXXX09",
+              "subject": "Bambinos Installment 1 Acknowledged for Ad***t Ku***i",
+              "message": "Dear Sn***a Ku***i, thank you for your partial payment of INR 5,250.00 (Installment 1 of 2) for Ad***t Ku***i. Your initial renewal sessions have been provisional. The second installment of INR 5,250.00 will be due prior to the 13th session. Our billing desk will reach out with your payment schedule.",
+              "reason": "Installment payment confirmation and terms disclosure",
+              "created_at": "2026-11-07 20:31:50"
+            },
+            {
+              "recipient_type": "Operations",
+              "recipient_name": "Finance Desk",
+              "recipient_contact": "Billing Queue",
+              "subject": "Installment Verification: Ad***t Ku***i (INV-84909)",
+              "message": "Invoice INV-84909 received partial payment of INR 5,250.00. Teacher form indicated full session fee. Configure installment milestone schedule before unlocking full 24-session booking.",
+              "reason": "Reconciliation of installment payment vs full session request",
+              "created_at": "2026-11-07 20:31:50"
+            }
+          ]
+        }
+      ],
+      "draft_messages": [
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "Sn***a Ku***i",
+          "recipient_contact": "+91-9899XXXX09",
+          "subject": "Bambinos Installment 1 Acknowledged for Ad***t Ku***i",
+          "message": "Dear Sn***a Ku***i, thank you for your partial payment of INR 5,250.00 (Installment 1 of 2) for Ad***t Ku***i. Your initial renewal sessions have been provisional. The second installment of INR 5,250.00 will be due prior to the 13th session. Our billing desk will reach out with your payment schedule.",
+          "reason": "Installment payment confirmation and terms disclosure",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Finance Desk",
+          "recipient_contact": "Billing Queue",
+          "subject": "Installment Verification: Ad***t Ku***i (INV-84909)",
+          "message": "Invoice INV-84909 received partial payment of INR 5,250.00. Teacher form indicated full session fee. Configure installment milestone schedule before unlocking full 24-session booking.",
+          "reason": "Reconciliation of installment payment vs full session request",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "student_id": "68110",
+      "student_name": "My***a Re***y",
+      "parent_name": "Vi***m Re***y",
+      "parent_mobile": "+91-9800XXXX10",
+      "parent_email": "vi***m.r***@gmail.com",
+      "invoice_id": "84910",
+      "invoice_number": "BMB-INV-2026-84910",
+      "current_stage": "Payment Received",
+      "reconciliation_status": "MISSING_TEACHER_FORM",
+      "reason_code": "MISSING_TEACHER_FORM",
+      "explanation": "Orphaned payment: Educator Coach Arvind K*** has not submitted renewal form.",
+      "recommended_action": "Dispatch urgent prompt to educator.",
+      "responsible_team": "Teacher Operations",
+      "timestamp": "2026-11-07 20:31:50",
+      "payment_status": "Paid",
+      "amount_paid": 11000.0,
+      "net_amount": 11000.0,
+      "currency": "INR",
+      "educator_id": "1122",
+      "educator_name": "Coach Arvind K***",
+      "class_id": "401",
+      "class_name": "Unbox Chess Level 1",
+      "batch_id": "9210",
+      "batch_name": "CM-G2-Batch-I",
+      "batch_days": "Wed,Fri",
+      "batch_time": "17:00:00",
+      "batch_capacity_info": "5/6",
+      "continue_same_batch": null,
+      "teacher_form_id": null,
+      "booking_request_id": null,
+      "class_schedule_ids": [],
+      "is_auto_approvable": false,
+      "ready_for_scheduling": false,
+      "exceptions": [
+        {
+          "id": "EXC-84910-NO-FORM",
+          "student_id": "68110",
+          "student_name": "My***a Re***y",
+          "invoice_id": "84910",
+          "invoice_number": "BMB-INV-2026-84910",
+          "exception_type": "MISSING_TEACHER_FORM",
+          "category": "Teacher Issues",
+          "severity": "High",
+          "detected_at": "2026-11-07 20:31:50",
+          "time_pending_hours": 105.2,
+          "responsible_team": "Educator / Ops",
+          "recommended_action": "Alert educator Coach Arvind K*** to submit pending renewal form immediately.",
+          "status": "Open",
+          "notes": [],
+          "assigned_to": null,
+          "explanation": "Full payment of INR 11,000.00 verified on 2026-11-03 11:20:45, but no educator renewal form submitted.",
+          "details": {
+            "paid_at": "2026-11-03 11:20:45",
+            "educator_name": "Coach Arvind K***",
+            "educator_id": "1122"
+          },
+          "draft_messages": [
+            {
+              "recipient_type": "Teacher",
+              "recipient_name": "Coach Arvind K***",
+              "recipient_contact": "Educator WhatsApp / App",
+              "subject": "URGENT: Renewal Form Needed for My***a Re***y",
+              "message": "Hello Coach Arvind K***, a verified renewal payment of INR 11,000.00 has been received for student My***a Re***y (Invoice INV-84910). However, your educator renewal submission form is still missing. Please submit the form via the educator portal immediately so we can allocate the batch and confirm the schedule.",
+              "reason": "Orphaned invoice: payment received without faculty form submission",
+              "created_at": "2026-11-07 20:31:50"
+            },
+            {
+              "recipient_type": "Parent",
+              "recipient_name": "Vi***m Re***y",
+              "recipient_contact": "+91-9800XXXX10",
+              "subject": "Update on My***a Re***y's Bambinos Renewal",
+              "message": "Dear Vi***m Re***y, we have successfully received your renewal payment for My***a Re***y. Our academic coordinator is currently coordinating with your mentor Coach Arvind K*** to confirm the upcoming schedule. We will notify you within 24 hours with class details.",
+              "reason": "Parent holding communication during teacher submission delay",
+              "created_at": "2026-11-07 20:31:50"
+            },
+            {
+              "recipient_type": "Operations",
+              "recipient_name": "Operations Lead",
+              "recipient_contact": "Internal Queue",
+              "subject": "Pending Teacher Form Escalation: Coach Arvind K*** / My***a Re***y",
+              "message": "Payment for My***a Re***y (INV-84910) has been orphaned for >12 hours without faculty form from Coach Arvind K***. Action: Ping educator directly via WhatsApp or coordinator hotline.",
+              "reason": "SLA violation risk for missing faculty form",
+              "created_at": "2026-11-07 20:31:50"
+            }
+          ]
+        }
+      ],
+      "draft_messages": [
+        {
+          "recipient_type": "Teacher",
+          "recipient_name": "Coach Arvind K***",
+          "recipient_contact": "Educator WhatsApp / App",
+          "subject": "URGENT: Renewal Form Needed for My***a Re***y",
+          "message": "Hello Coach Arvind K***, a verified renewal payment of INR 11,000.00 has been received for student My***a Re***y (Invoice INV-84910). However, your educator renewal submission form is still missing. Please submit the form via the educator portal immediately so we can allocate the batch and confirm the schedule.",
+          "reason": "Orphaned invoice: payment received without faculty form submission",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "Vi***m Re***y",
+          "recipient_contact": "+91-9800XXXX10",
+          "subject": "Update on My***a Re***y's Bambinos Renewal",
+          "message": "Dear Vi***m Re***y, we have successfully received your renewal payment for My***a Re***y. Our academic coordinator is currently coordinating with your mentor Coach Arvind K*** to confirm the upcoming schedule. We will notify you within 24 hours with class details.",
+          "reason": "Parent holding communication during teacher submission delay",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Operations Lead",
+          "recipient_contact": "Internal Queue",
+          "subject": "Pending Teacher Form Escalation: Coach Arvind K*** / My***a Re***y",
+          "message": "Payment for My***a Re***y (INV-84910) has been orphaned for >12 hours without faculty form from Coach Arvind K***. Action: Ping educator directly via WhatsApp or coordinator hotline.",
+          "reason": "SLA violation risk for missing faculty form",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "student_id": "68111",
+      "student_name": "Is***n Gu***a",
+      "parent_name": "An***i Gu***a",
+      "parent_mobile": "+91-9811XXXX11",
+      "parent_email": "an***i.g***@gmail.com",
+      "invoice_id": "84911",
+      "invoice_number": "BMB-INV-2026-84911",
+      "current_stage": "Teacher Form Submitted",
+      "reconciliation_status": "REJECTED",
+      "reason_code": "PAYMENT_NOT_COMPLETED",
+      "explanation": "Payment failed on gateway. Enrollment halted.",
+      "recommended_action": "Send payment retry link to parent.",
+      "responsible_team": "Finance",
+      "timestamp": "2026-11-07 20:31:50",
+      "payment_status": "Failed",
+      "amount_paid": 12000.0,
+      "net_amount": 12000.0,
+      "currency": "INR",
+      "educator_id": "1125",
+      "educator_name": "Ms. Simran D***",
+      "class_id": "102",
+      "class_name": "Young Communicators Level 1",
+      "batch_id": "9211",
+      "batch_name": "YC-G2-Batch-J",
+      "batch_days": "Mon,Wed",
+      "batch_time": "16:00:00",
+      "batch_capacity_info": "5/6",
+      "continue_same_batch": "Yes",
+      "teacher_form_id": "3311",
+      "booking_request_id": null,
+      "class_schedule_ids": [],
+      "is_auto_approvable": false,
+      "ready_for_scheduling": false,
+      "exceptions": [
+        {
+          "id": "EXC-84911-PAY-FAIL",
+          "student_id": "68111",
+          "student_name": "Is***n Gu***a",
+          "invoice_id": "84911",
+          "invoice_number": "BMB-INV-2026-84911",
+          "exception_type": "PAYMENT_NOT_COMPLETED",
+          "category": "Payment Issues",
+          "severity": "Critical",
+          "detected_at": "2026-11-07 20:31:50",
+          "time_pending_hours": 0.0,
+          "responsible_team": "Finance / Ops",
+          "recommended_action": "Send automated retry payment link to parent. Do not admit to classes.",
+          "status": "Open",
+          "notes": [],
+          "assigned_to": null,
+          "explanation": "Payment status is marked as 'Failed' by payment gateway. Transaction was not settled.",
+          "details": {
+            "payment_status": "Failed",
+            "invoice_link": "https://bambinos.live/invoice/BMB-INV-2026-84911"
+          },
+          "draft_messages": [
+            {
+              "recipient_type": "Parent",
+              "recipient_name": "An***i Gu***a",
+              "recipient_contact": "+91-9811XXXX11",
+              "subject": "Action Required: Incomplete Payment for Is***n Gu***a's Renewal",
+              "message": "Dear An***i Gu***a, we noticed that your recent payment attempt of INR 12,000.00 for Is***n Gu***a's Bambinos renewal (Invoice INV-84911) was marked as Failed by the payment gateway. To keep Is***n Gu***a's slot active without interruption, please retry using your secure link: https://bambinos.live/invoice/BMB-INV-2026-84911. If funds were deducted from your bank, reply here with your transaction UTR.",
+              "reason": "Failed payment gateway transaction requiring parent retry",
+              "created_at": "2026-11-07 20:31:50"
+            },
+            {
+              "recipient_type": "Teacher",
+              "recipient_name": "Ms. Simran D***",
+              "recipient_contact": "Educator Portal",
+              "subject": "Payment Failed for Is***n Gu***a",
+              "message": "Hi Ms. Simran D***, the renewal form submitted for Is***n Gu***a cannot be approved yet as the gateway payment failed. We have alerted the parent to retry. Please do not confirm class dates until verified.",
+              "reason": "Informing educator to withhold class access until verified payment",
+              "created_at": "2026-11-07 20:31:50"
+            }
+          ]
+        }
+      ],
+      "draft_messages": [
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "An***i Gu***a",
+          "recipient_contact": "+91-9811XXXX11",
+          "subject": "Action Required: Incomplete Payment for Is***n Gu***a's Renewal",
+          "message": "Dear An***i Gu***a, we noticed that your recent payment attempt of INR 12,000.00 for Is***n Gu***a's Bambinos renewal (Invoice INV-84911) was marked as Failed by the payment gateway. To keep Is***n Gu***a's slot active without interruption, please retry using your secure link: https://bambinos.live/invoice/BMB-INV-2026-84911. If funds were deducted from your bank, reply here with your transaction UTR.",
+          "reason": "Failed payment gateway transaction requiring parent retry",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Teacher",
+          "recipient_name": "Ms. Simran D***",
+          "recipient_contact": "Educator Portal",
+          "subject": "Payment Failed for Is***n Gu***a",
+          "message": "Hi Ms. Simran D***, the renewal form submitted for Is***n Gu***a cannot be approved yet as the gateway payment failed. We have alerted the parent to retry. Please do not confirm class dates until verified.",
+          "reason": "Informing educator to withhold class access until verified payment",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "student_id": "68112",
+      "student_name": "Ta***a Me***n",
+      "parent_name": "De***k Me***n",
+      "parent_mobile": "+91-9822XXXX12",
+      "parent_email": "de***k.m***@gmail.com",
+      "invoice_id": "84912",
+      "invoice_number": "BMB-INV-2026-84912",
+      "current_stage": "Booking Request Approved",
+      "reconciliation_status": "MANUAL_REVIEW",
+      "reason_code": "BATCH_CHANGE_PENDING",
+      "explanation": "Parent opted out of same batch. Requested: Sat,Sun at 11:00:00. Teacher remark: 'Parent wants weekend 11 AM batch instead of Wed-Fri'.",
+      "recommended_action": "Reach out to parent to confirm selection from available weekend batches.",
+      "responsible_team": "Operations",
+      "timestamp": "2026-11-07 20:31:50",
+      "payment_status": "Paid",
+      "amount_paid": 9000.0,
+      "net_amount": 9000.0,
+      "currency": "INR",
+      "educator_id": "1115",
+      "educator_name": "Acharya Nancy S***",
+      "class_id": "301",
+      "class_name": "Little Yogi Gita Level 1",
+      "batch_id": "9203",
+      "batch_name": "LY-G3-Batch-B",
+      "batch_days": "Wed,Fri",
+      "batch_time": "16:30:00",
+      "batch_capacity_info": "3/6",
+      "continue_same_batch": "No",
+      "teacher_form_id": "3312",
+      "booking_request_id": "5512",
+      "class_schedule_ids": [],
+      "is_auto_approvable": false,
+      "ready_for_scheduling": false,
+      "exceptions": [
+        {
+          "id": "EXC-84912-BATCH-CHANGE",
+          "student_id": "68112",
+          "student_name": "Ta***a Me***n",
+          "invoice_id": "84912",
+          "invoice_number": "BMB-INV-2026-84912",
+          "exception_type": "BATCH_CHANGE_PENDING",
+          "category": "Scheduling Issues",
+          "severity": "Medium",
+          "detected_at": "2026-11-07 20:31:50",
+          "time_pending_hours": 100.9,
+          "responsible_team": "Operations",
+          "recommended_action": "Reach out to parent to confirm selection from available weekend batches.",
+          "status": "Open",
+          "notes": [],
+          "assigned_to": null,
+          "explanation": "Parent opted out of same batch. Requested: Sat,Sun at 11:00:00. Teacher remark: 'Parent wants weekend 11 AM batch instead of Wed-Fri'.",
+          "details": {
+            "preferred_days": "Sat,Sun",
+            "preferred_time": "11:00:00",
+            "remark": "Parent wants weekend 11 AM batch instead of Wed-Fri"
+          },
+          "draft_messages": [
+            {
+              "recipient_type": "Parent",
+              "recipient_name": "De***k Me***n",
+              "recipient_contact": "+91-9822XXXX12",
+              "subject": "Batch Change Options for Ta***a Me***n",
+              "message": "Dear De***k Me***n, thank you for renewing with Bambinos.live. We received your request to move Ta***a Me***n to a weekend slot (Sat,Sun at 11:00:00). Our academic advisor will contact you today at +91-9822XXXX12 to confirm the teacher and start date.",
+              "reason": "Batch change request workflow acknowledgment to parent",
+              "created_at": "2026-11-07 20:31:50"
+            },
+            {
+              "recipient_type": "Operations",
+              "recipient_name": "Academic Scheduling",
+              "recipient_contact": "Batch Change Queue",
+              "subject": "Batch Change Request: Ta***a Me***n to Sat,Sun 11:00:00",
+              "message": "Student Ta***a Me***n opted out of existing batch 9203. Requested slot: Sat,Sun 11:00:00. Booking request 5512 is awaiting parent confirmation.",
+              "reason": "Manual schedule coordination for non-standard batch change",
+              "created_at": "2026-11-07 20:31:50"
+            }
+          ]
+        }
+      ],
+      "draft_messages": [
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "De***k Me***n",
+          "recipient_contact": "+91-9822XXXX12",
+          "subject": "Batch Change Options for Ta***a Me***n",
+          "message": "Dear De***k Me***n, thank you for renewing with Bambinos.live. We received your request to move Ta***a Me***n to a weekend slot (Sat,Sun at 11:00:00). Our academic advisor will contact you today at +91-9822XXXX12 to confirm the teacher and start date.",
+          "reason": "Batch change request workflow acknowledgment to parent",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Academic Scheduling",
+          "recipient_contact": "Batch Change Queue",
+          "subject": "Batch Change Request: Ta***a Me***n to Sat,Sun 11:00:00",
+          "message": "Student Ta***a Me***n opted out of existing batch 9203. Requested slot: Sat,Sun 11:00:00. Booking request 5512 is awaiting parent confirmation.",
+          "reason": "Manual schedule coordination for non-standard batch change",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "student_id": "68113",
+      "student_name": "De***a Me***a",
+      "parent_name": "Ar***n \u041c\u0435***a",
+      "parent_mobile": "+91-9833XXXX13",
+      "parent_email": "ar***n.m***@gmail.com",
+      "invoice_id": "84913",
+      "invoice_number": "BMB-INV-2026-84913",
+      "current_stage": "Teacher Form Submitted",
+      "reconciliation_status": "MANUAL_REVIEW",
+      "reason_code": "INVOICE_NOT_FOUND",
+      "explanation": "Educator submitted invoice ID '84931' which does not exist. Reconciled to Invoice 84913 via student ID.",
+      "recommended_action": "Auto-link educator submission to valid invoice 84913 and update records.",
+      "responsible_team": "Operations",
+      "timestamp": "2026-11-07 20:31:50",
+      "payment_status": "Paid",
+      "amount_paid": 11500.0,
+      "net_amount": 11500.0,
+      "currency": "INR",
+      "educator_id": "1130",
+      "educator_name": "Ms. Mary M***",
+      "class_id": "501",
+      "class_name": "Unbox Science Level 1",
+      "batch_id": "9213",
+      "batch_name": "SC-G4-Batch-K",
+      "batch_days": "Tue,Thu",
+      "batch_time": "18:00:00",
+      "batch_capacity_info": "4/6",
+      "continue_same_batch": "Yes",
+      "teacher_form_id": "3313",
+      "booking_request_id": null,
+      "class_schedule_ids": [],
+      "is_auto_approvable": false,
+      "ready_for_scheduling": false,
+      "exceptions": [
+        {
+          "id": "EXC-84913-INV-TYPO",
+          "student_id": "68113",
+          "student_name": "De***a Me***a",
+          "invoice_id": "84913",
+          "invoice_number": "BMB-INV-2026-84913",
+          "exception_type": "INVOICE_NOT_FOUND",
+          "category": "Data Mismatches",
+          "severity": "High",
+          "detected_at": "2026-11-07 20:31:50",
+          "time_pending_hours": 99.7,
+          "responsible_team": "Operations",
+          "recommended_action": "Auto-link educator submission to valid invoice 84913 and update records.",
+          "status": "Open",
+          "notes": [],
+          "assigned_to": null,
+          "explanation": "Educator submitted invoice ID '84931' which does not exist. Reconciled to Invoice 84913 via student ID.",
+          "details": {
+            "submitted_invoice_id": "84931",
+            "actual_invoice_id": "84913"
+          },
+          "draft_messages": [
+            {
+              "recipient_type": "Teacher",
+              "recipient_name": "Ms. Mary M***",
+              "recipient_contact": "Teacher Portal",
+              "subject": "Invoice ID Correction Needed: De***a Me***a",
+              "message": "Hello Ms. Mary M***, in your renewal submission for De***a Me***a, you entered Invoice ID '84931'. Our automated reconciliation matched De***a Me***a to actual Invoice 'INV-84913'. Please verify this invoice number in your educator records to avoid processing delays.",
+              "reason": "Educator typo in submitted invoice identifier",
+              "created_at": "2026-11-07 20:31:50"
+            },
+            {
+              "recipient_type": "Operations",
+              "recipient_name": "Reconciliation Desk",
+              "recipient_contact": "Ops Desk",
+              "subject": "Typo Correction Match: De***a Me***a (INV-84913)",
+              "message": "Teacher entered 84931 which does not exist. Fuzzy/Student ID match resolved to valid invoice INV-84913 for student 68113. Approve auto-correction link.",
+              "reason": "Automated cross-table foreign key mismatch resolution",
+              "created_at": "2026-11-07 20:31:50"
+            }
+          ]
+        }
+      ],
+      "draft_messages": [
+        {
+          "recipient_type": "Teacher",
+          "recipient_name": "Ms. Mary M***",
+          "recipient_contact": "Teacher Portal",
+          "subject": "Invoice ID Correction Needed: De***a Me***a",
+          "message": "Hello Ms. Mary M***, in your renewal submission for De***a Me***a, you entered Invoice ID '84931'. Our automated reconciliation matched De***a Me***a to actual Invoice 'INV-84913'. Please verify this invoice number in your educator records to avoid processing delays.",
+          "reason": "Educator typo in submitted invoice identifier",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Reconciliation Desk",
+          "recipient_contact": "Ops Desk",
+          "subject": "Typo Correction Match: De***a Me***a (INV-84913)",
+          "message": "Teacher entered 84931 which does not exist. Fuzzy/Student ID match resolved to valid invoice INV-84913 for student 68113. Approve auto-correction link.",
+          "reason": "Automated cross-table foreign key mismatch resolution",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    }
+  ],
+  "exception_list": [
+    {
+      "id": "EXC-84904-CONTACT-MISMATCH",
+      "student_id": "68104",
+      "student_name": "An***a Iy***r",
+      "invoice_id": "84904",
+      "invoice_number": "BMB-INV-2026-84904",
+      "exception_type": "PARENT_CONTACT_MISMATCH",
+      "category": "Data Mismatches",
+      "severity": "Medium",
+      "detected_at": "2026-11-07 20:31:50",
+      "time_pending_hours": 129.0,
+      "responsible_team": "Operations",
+      "recommended_action": "Verify secondary guardian contact and link payer phone number to student account.",
+      "status": "Open",
+      "notes": [],
+      "assigned_to": null,
+      "explanation": "Payer phone on invoice (+91-9844XXXX77) differs from registered parent mobile (+91-9844XXXX04). Educator remark: 'Mother paid from her number'.",
+      "details": {
+        "invoice_mobile": "+91-9844XXXX77",
+        "registered_mobile": "+91-9844XXXX04",
+        "teacher_remark": "Mother paid from her number"
+      },
+      "draft_messages": [
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Security & Ops",
+          "recipient_contact": "Verification Queue",
+          "subject": "Contact Mismatch Review: An***a Iy***r (INV-84904)",
+          "message": "Invoice INV-84904 was paid using mobile +91-9844XXXX77 (Ri***u Iy***r), whereas master student profile lists +91-9844XXXX04. Teacher remark noted: 'Mother paid from her number'. Verify authorization and link secondary phone number.",
+          "reason": "Parent contact discrepancy between payment transaction and student record",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "Ri***u Iy***r",
+          "recipient_contact": "+91-9844XXXX77",
+          "subject": "Bambinos Profile Verification for An***a Iy***r",
+          "message": "Dear Ri***u Iy***r, we received renewal payment for An***a Iy***r from mobile +91-9844XXXX77. We are updating An***a Iy***r's profile with this number as an authorized parent contact. If you did not authorize this, please contact support@bambinos.live immediately.",
+          "reason": "Secondary contact registration and verification notice",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "id": "EXC-84905-BATCH-FULL",
+      "student_id": "68105",
+      "student_name": "Re***h Pa***l",
+      "invoice_id": "84905",
+      "invoice_number": "BMB-INV-2026-84905",
+      "exception_type": "BATCH_UNAVAILABLE",
+      "category": "Scheduling Issues",
+      "severity": "High",
+      "detected_at": "2026-11-07 20:31:50",
+      "time_pending_hours": 127.4,
+      "responsible_team": "Scheduling Ops",
+      "recommended_action": "Create overflow batch section or offer parallel weekday slots to parent.",
+      "status": "Open",
+      "notes": [],
+      "assigned_to": null,
+      "explanation": "Target batch CM-G4-Batch-D is at full capacity (6/6 active students).",
+      "details": {
+        "batch_id": "9205",
+        "active_students": 6,
+        "max_size": 6
+      },
+      "draft_messages": [
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "Me***a Pa***l",
+          "recipient_contact": "+91-9855XXXX05",
+          "subject": "Batch Scheduling Update for Re***h Pa***l",
+          "message": "Dear Me***a Pa***l, thank you for renewing Re***h Pa***l's course with Bambinos.live. Your preferred batch CM-G4-Batch-D is currently operating at maximum capacity. To ensure optimal 1:6 teacher attention, our academic manager has reserved 2 parallel slot options for you: Option 1: Tue, Thu 6:00 PM | Option 2: Sat, Sun 11:00 AM. Please reply with your preference to confirm.",
+          "reason": "Batch capacity constraint - proposing alternate slots to parent",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Scheduling Ops",
+          "recipient_contact": "Ops Queue",
+          "subject": "Urgent: Capacity Overflow in Batch 9205",
+          "message": "Booking request for Re***h Pa***l failed because batch 9205 is full (6/6). Action: Review educator availability to open an overflow section or confirm alternate batch.",
+          "reason": "Batch capacity overflow escalation",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "id": "EXC-84906-NO-FORM",
+      "student_id": "68106",
+      "student_name": "Zo***a Kh***n",
+      "invoice_id": "84906",
+      "invoice_number": "BMB-INV-2026-84906",
+      "exception_type": "MISSING_TEACHER_FORM",
+      "category": "Teacher Issues",
+      "severity": "High",
+      "detected_at": "2026-11-07 20:31:50",
+      "time_pending_hours": 124.5,
+      "responsible_team": "Educator / Ops",
+      "recommended_action": "Alert educator Ms. Rhea B*** to submit pending renewal form immediately.",
+      "status": "Open",
+      "notes": [],
+      "assigned_to": null,
+      "explanation": "Full payment of INR 18,000.00 verified on 2026-11-02 16:00:00, but no educator renewal form submitted.",
+      "details": {
+        "paid_at": "2026-11-02 16:00:00",
+        "educator_name": "Ms. Rhea B***",
+        "educator_id": "1102"
+      },
+      "draft_messages": [
+        {
+          "recipient_type": "Teacher",
+          "recipient_name": "Ms. Rhea B***",
+          "recipient_contact": "Educator WhatsApp / App",
+          "subject": "URGENT: Renewal Form Needed for Zo***a Kh***n",
+          "message": "Hello Ms. Rhea B***, a verified renewal payment of INR 18,000.00 has been received for student Zo***a Kh***n (Invoice INV-84906). However, your educator renewal submission form is still missing. Please submit the form via the educator portal immediately so we can allocate the batch and confirm the schedule.",
+          "reason": "Orphaned invoice: payment received without faculty form submission",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "Fa***n Kh***n",
+          "recipient_contact": "+971-5012XXX06",
+          "subject": "Update on Zo***a Kh***n's Bambinos Renewal",
+          "message": "Dear Fa***n Kh***n, we have successfully received your renewal payment for Zo***a Kh***n. Our academic coordinator is currently coordinating with your mentor Ms. Rhea B*** to confirm the upcoming schedule. We will notify you within 24 hours with class details.",
+          "reason": "Parent holding communication during teacher submission delay",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Operations Lead",
+          "recipient_contact": "Internal Queue",
+          "subject": "Pending Teacher Form Escalation: Ms. Rhea B*** / Zo***a Kh***n",
+          "message": "Payment for Zo***a Kh***n (INV-84906) has been orphaned for >12 hours without faculty form from Ms. Rhea B***. Action: Ping educator directly via WhatsApp or coordinator hotline.",
+          "reason": "SLA violation risk for missing faculty form",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "id": "EXC-84908-DUP-FORM",
+      "student_id": "68108",
+      "student_name": "Si***a Ma***a",
+      "invoice_id": "84908",
+      "invoice_number": "BMB-INV-2026-84908",
+      "exception_type": "DUPLICATE_FACULTY_FORM",
+      "category": "Data Mismatches",
+      "severity": "Medium",
+      "detected_at": "2026-11-07 20:31:50",
+      "time_pending_hours": 108.3,
+      "responsible_team": "Operations",
+      "recommended_action": "De-duplicate submissions; discard earlier attempt and retain latest valid form.",
+      "status": "Open",
+      "notes": [],
+      "assigned_to": null,
+      "explanation": "Multiple renewal forms submitted by educator for this invoice (Form IDs: 3308, 3309).",
+      "details": {
+        "duplicate_ids": [
+          "3308",
+          "3309"
+        ]
+      },
+      "draft_messages": [
+        {
+          "recipient_type": "Teacher",
+          "recipient_name": "Acharya Nancy S***",
+          "recipient_contact": "Teacher Portal",
+          "subject": "Duplicate Submission Notice: Si***a Ma***a",
+          "message": "Hi Acharya Nancy S***, we detected two identical renewal submissions (Forms ['3308', '3309']) for Si***a Ma***a (Invoice INV-84908). We have retained the latest valid entry and archived the duplicate. No further action is required from you.",
+          "reason": "De-duplication notice to educator to prevent redundant forms",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Ops Lead",
+          "recipient_contact": "Ops Desk",
+          "subject": "De-duplicated Form for Invoice INV-84908",
+          "message": "Educator submitted multiple entries due to browser freeze/lag. Duplicate form pruned; primary form kept.",
+          "reason": "Internal audit resolution note for duplicate faculty submission",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "id": "EXC-84909-PARTIAL-PAY",
+      "student_id": "68109",
+      "student_name": "Ad***t Ku***i",
+      "invoice_id": "84909",
+      "invoice_number": "BMB-INV-2026-84909",
+      "exception_type": "PARTIAL_PAYMENT",
+      "category": "Payment Issues",
+      "severity": "High",
+      "detected_at": "2026-11-07 20:31:50",
+      "time_pending_hours": 106.5,
+      "responsible_team": "Finance / Ops",
+      "recommended_action": "Confirm 2-installment agreement and set payment milestone before unlocking all 24 sessions.",
+      "status": "Open",
+      "notes": [],
+      "assigned_to": null,
+      "explanation": "Partial installment received (INR 5,250.00 of total INR 10,500.00). Remaining balance is INR 5,250.00.",
+      "details": {
+        "net_amount": 5250.0,
+        "amount": 10500.0,
+        "balance_due": 5250.0,
+        "payment_type": "Installment_1_of_2"
+      },
+      "draft_messages": [
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "Sn***a Ku***i",
+          "recipient_contact": "+91-9899XXXX09",
+          "subject": "Bambinos Installment 1 Acknowledged for Ad***t Ku***i",
+          "message": "Dear Sn***a Ku***i, thank you for your partial payment of INR 5,250.00 (Installment 1 of 2) for Ad***t Ku***i. Your initial renewal sessions have been provisional. The second installment of INR 5,250.00 will be due prior to the 13th session. Our billing desk will reach out with your payment schedule.",
+          "reason": "Installment payment confirmation and terms disclosure",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Finance Desk",
+          "recipient_contact": "Billing Queue",
+          "subject": "Installment Verification: Ad***t Ku***i (INV-84909)",
+          "message": "Invoice INV-84909 received partial payment of INR 5,250.00. Teacher form indicated full session fee. Configure installment milestone schedule before unlocking full 24-session booking.",
+          "reason": "Reconciliation of installment payment vs full session request",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "id": "EXC-84910-NO-FORM",
+      "student_id": "68110",
+      "student_name": "My***a Re***y",
+      "invoice_id": "84910",
+      "invoice_number": "BMB-INV-2026-84910",
+      "exception_type": "MISSING_TEACHER_FORM",
+      "category": "Teacher Issues",
+      "severity": "High",
+      "detected_at": "2026-11-07 20:31:50",
+      "time_pending_hours": 105.2,
+      "responsible_team": "Educator / Ops",
+      "recommended_action": "Alert educator Coach Arvind K*** to submit pending renewal form immediately.",
+      "status": "Open",
+      "notes": [],
+      "assigned_to": null,
+      "explanation": "Full payment of INR 11,000.00 verified on 2026-11-03 11:20:45, but no educator renewal form submitted.",
+      "details": {
+        "paid_at": "2026-11-03 11:20:45",
+        "educator_name": "Coach Arvind K***",
+        "educator_id": "1122"
+      },
+      "draft_messages": [
+        {
+          "recipient_type": "Teacher",
+          "recipient_name": "Coach Arvind K***",
+          "recipient_contact": "Educator WhatsApp / App",
+          "subject": "URGENT: Renewal Form Needed for My***a Re***y",
+          "message": "Hello Coach Arvind K***, a verified renewal payment of INR 11,000.00 has been received for student My***a Re***y (Invoice INV-84910). However, your educator renewal submission form is still missing. Please submit the form via the educator portal immediately so we can allocate the batch and confirm the schedule.",
+          "reason": "Orphaned invoice: payment received without faculty form submission",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "Vi***m Re***y",
+          "recipient_contact": "+91-9800XXXX10",
+          "subject": "Update on My***a Re***y's Bambinos Renewal",
+          "message": "Dear Vi***m Re***y, we have successfully received your renewal payment for My***a Re***y. Our academic coordinator is currently coordinating with your mentor Coach Arvind K*** to confirm the upcoming schedule. We will notify you within 24 hours with class details.",
+          "reason": "Parent holding communication during teacher submission delay",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Operations Lead",
+          "recipient_contact": "Internal Queue",
+          "subject": "Pending Teacher Form Escalation: Coach Arvind K*** / My***a Re***y",
+          "message": "Payment for My***a Re***y (INV-84910) has been orphaned for >12 hours without faculty form from Coach Arvind K***. Action: Ping educator directly via WhatsApp or coordinator hotline.",
+          "reason": "SLA violation risk for missing faculty form",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "id": "EXC-84911-PAY-FAIL",
+      "student_id": "68111",
+      "student_name": "Is***n Gu***a",
+      "invoice_id": "84911",
+      "invoice_number": "BMB-INV-2026-84911",
+      "exception_type": "PAYMENT_NOT_COMPLETED",
+      "category": "Payment Issues",
+      "severity": "Critical",
+      "detected_at": "2026-11-07 20:31:50",
+      "time_pending_hours": 0.0,
+      "responsible_team": "Finance / Ops",
+      "recommended_action": "Send automated retry payment link to parent. Do not admit to classes.",
+      "status": "Open",
+      "notes": [],
+      "assigned_to": null,
+      "explanation": "Payment status is marked as 'Failed' by payment gateway. Transaction was not settled.",
+      "details": {
+        "payment_status": "Failed",
+        "invoice_link": "https://bambinos.live/invoice/BMB-INV-2026-84911"
+      },
+      "draft_messages": [
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "An***i Gu***a",
+          "recipient_contact": "+91-9811XXXX11",
+          "subject": "Action Required: Incomplete Payment for Is***n Gu***a's Renewal",
+          "message": "Dear An***i Gu***a, we noticed that your recent payment attempt of INR 12,000.00 for Is***n Gu***a's Bambinos renewal (Invoice INV-84911) was marked as Failed by the payment gateway. To keep Is***n Gu***a's slot active without interruption, please retry using your secure link: https://bambinos.live/invoice/BMB-INV-2026-84911. If funds were deducted from your bank, reply here with your transaction UTR.",
+          "reason": "Failed payment gateway transaction requiring parent retry",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Teacher",
+          "recipient_name": "Ms. Simran D***",
+          "recipient_contact": "Educator Portal",
+          "subject": "Payment Failed for Is***n Gu***a",
+          "message": "Hi Ms. Simran D***, the renewal form submitted for Is***n Gu***a cannot be approved yet as the gateway payment failed. We have alerted the parent to retry. Please do not confirm class dates until verified.",
+          "reason": "Informing educator to withhold class access until verified payment",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "id": "EXC-84912-BATCH-CHANGE",
+      "student_id": "68112",
+      "student_name": "Ta***a Me***n",
+      "invoice_id": "84912",
+      "invoice_number": "BMB-INV-2026-84912",
+      "exception_type": "BATCH_CHANGE_PENDING",
+      "category": "Scheduling Issues",
+      "severity": "Medium",
+      "detected_at": "2026-11-07 20:31:50",
+      "time_pending_hours": 100.9,
+      "responsible_team": "Operations",
+      "recommended_action": "Reach out to parent to confirm selection from available weekend batches.",
+      "status": "Open",
+      "notes": [],
+      "assigned_to": null,
+      "explanation": "Parent opted out of same batch. Requested: Sat,Sun at 11:00:00. Teacher remark: 'Parent wants weekend 11 AM batch instead of Wed-Fri'.",
+      "details": {
+        "preferred_days": "Sat,Sun",
+        "preferred_time": "11:00:00",
+        "remark": "Parent wants weekend 11 AM batch instead of Wed-Fri"
+      },
+      "draft_messages": [
+        {
+          "recipient_type": "Parent",
+          "recipient_name": "De***k Me***n",
+          "recipient_contact": "+91-9822XXXX12",
+          "subject": "Batch Change Options for Ta***a Me***n",
+          "message": "Dear De***k Me***n, thank you for renewing with Bambinos.live. We received your request to move Ta***a Me***n to a weekend slot (Sat,Sun at 11:00:00). Our academic advisor will contact you today at +91-9822XXXX12 to confirm the teacher and start date.",
+          "reason": "Batch change request workflow acknowledgment to parent",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Academic Scheduling",
+          "recipient_contact": "Batch Change Queue",
+          "subject": "Batch Change Request: Ta***a Me***n to Sat,Sun 11:00:00",
+          "message": "Student Ta***a Me***n opted out of existing batch 9203. Requested slot: Sat,Sun 11:00:00. Booking request 5512 is awaiting parent confirmation.",
+          "reason": "Manual schedule coordination for non-standard batch change",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    },
+    {
+      "id": "EXC-84913-INV-TYPO",
+      "student_id": "68113",
+      "student_name": "De***a Me***a",
+      "invoice_id": "84913",
+      "invoice_number": "BMB-INV-2026-84913",
+      "exception_type": "INVOICE_NOT_FOUND",
+      "category": "Data Mismatches",
+      "severity": "High",
+      "detected_at": "2026-11-07 20:31:50",
+      "time_pending_hours": 99.7,
+      "responsible_team": "Operations",
+      "recommended_action": "Auto-link educator submission to valid invoice 84913 and update records.",
+      "status": "Open",
+      "notes": [],
+      "assigned_to": null,
+      "explanation": "Educator submitted invoice ID '84931' which does not exist. Reconciled to Invoice 84913 via student ID.",
+      "details": {
+        "submitted_invoice_id": "84931",
+        "actual_invoice_id": "84913"
+      },
+      "draft_messages": [
+        {
+          "recipient_type": "Teacher",
+          "recipient_name": "Ms. Mary M***",
+          "recipient_contact": "Teacher Portal",
+          "subject": "Invoice ID Correction Needed: De***a Me***a",
+          "message": "Hello Ms. Mary M***, in your renewal submission for De***a Me***a, you entered Invoice ID '84931'. Our automated reconciliation matched De***a Me***a to actual Invoice 'INV-84913'. Please verify this invoice number in your educator records to avoid processing delays.",
+          "reason": "Educator typo in submitted invoice identifier",
+          "created_at": "2026-11-07 20:31:50"
+        },
+        {
+          "recipient_type": "Operations",
+          "recipient_name": "Reconciliation Desk",
+          "recipient_contact": "Ops Desk",
+          "subject": "Typo Correction Match: De***a Me***a (INV-84913)",
+          "message": "Teacher entered 84931 which does not exist. Fuzzy/Student ID match resolved to valid invoice INV-84913 for student 68113. Approve auto-correction link.",
+          "reason": "Automated cross-table foreign key mismatch resolution",
+          "created_at": "2026-11-07 20:31:50"
+        }
+      ]
+    }
+  ]
+}

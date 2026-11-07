@@ -1,0 +1,117 @@
+{
+  "name": "Bambinos Student Renewal Zero-Touch Orchestrator",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "razorpay-renewal-webhook",
+        "options": {}
+      },
+      "id": "node-1",
+      "name": "Razorpay Payment Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "url": "http://localhost:8000/api/reconciliation/run",
+        "method": "POST",
+        "options": {}
+      },
+      "id": "node-2",
+      "name": "FastAPI Reconciliation Engine",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 3,
+      "position": [480, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{$json[\"records\"][0][\"reconciliation_status\"]}}",
+              "value2": "AUTO_APPROVED"
+            }
+          ]
+        }
+      },
+      "id": "node-3",
+      "name": "Is Auto-Approved?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [720, 300]
+    },
+    {
+      "parameters": {
+        "operation": "sendTemplate",
+        "phoneNumber": "={{$json[\"records\"][0][\"parent_mobile\"]}}",
+        "templateName": "bambinos_renewal_confirmed",
+        "bodyVariables": [
+          "={{$json[\"records\"][0][\"student_name\"]}}",
+          "={{$json[\"records\"][0][\"batch_name\"]}}",
+          "={{$json[\"records\"][0][\"batch_time\"]}}"
+        ]
+      },
+      "id": "node-4",
+      "name": "WhatsApp Parent Confirmation",
+      "type": "n8n-nodes-base.whatsApp",
+      "typeVersion": 1,
+      "position": [980, 220]
+    },
+    {
+      "parameters": {
+        "channel": "#ops-renewal-exceptions",
+        "text": "⚠️ Renewal Exception: Invoice {{$json[\"records\"][0][\"invoice_id\"]}} for student {{$json[\"records\"][0][\"student_name\"]}} flagged with {{$json[\"records\"][0][\"reason_code\"]}}. Action: {{$json[\"records\"][0][\"recommended_action\"]}}"
+      },
+      "id": "node-5",
+      "name": "Slack Ops Exception Channel",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 1,
+      "position": [980, 420]
+    }
+  ],
+  "connections": {
+    "Razorpay Payment Webhook": {
+      "main": [
+        [
+          {
+            "node": "FastAPI Reconciliation Engine",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "FastAPI Reconciliation Engine": {
+      "main": [
+        [
+          {
+            "node": "Is Auto-Approved?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Is Auto-Approved?": {
+      "main": [
+        [
+          {
+            "node": "WhatsApp Parent Confirmation",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Slack Ops Exception Channel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
+
